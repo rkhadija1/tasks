@@ -1,4 +1,3 @@
-import { queries } from "@testing-library/react";
 import { Question, QuestionType } from "./interfaces/question";
 
 /**
