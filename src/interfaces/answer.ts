@@ -2,6 +2,7 @@
  * A representation of a students' answer in a quizzing game
  */
 export interface Answer {
+    //map(arg0: any): Answer;
     /** The ID of the question being answered. */
     questionId: number;
     /** The text that the student entered for their answer. */
