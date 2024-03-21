@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import React, { HTMLInputTypeAttribute, useState } from "react";
+import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 
 export function EditMode(): JSX.Element {

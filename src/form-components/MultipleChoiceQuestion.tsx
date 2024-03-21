@@ -1,4 +1,3 @@
-import exp from "constants";
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 
@@ -21,7 +20,6 @@ export function MultipleChoiceQuestion({
                 onChange={updateQuestion}
                 id="multiple-choice-question-answer-matched"
                 value={choice}
-
             >
                 {options.map((option: string) => (
                     <option key={option} value={option}>
